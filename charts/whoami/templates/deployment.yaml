@@ -6,7 +6,8 @@ spec:
   selector:
     matchLabels:
       app: "{{ .Values.app.name }}"
-  replicas: 1
+  # prettier-ignore
+  replicas: {{ .Values.replicaCount }}
   template:
     metadata:
       labels:
