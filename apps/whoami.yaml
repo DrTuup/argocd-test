@@ -6,9 +6,8 @@ metadata:
 spec:
   project: default
   source:
-    chart: charts/whoami
+    chart: whoami
     repoURL: https://github.com/drtuup/argocd-test
-    targetRevision: "1.16.0"
     helm:
       releaseName: whoami
   destination:
