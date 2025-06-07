@@ -8,6 +8,7 @@ spec:
   source:
     chart: whoami
     repoURL: https://github.com/drtuup/argocd-test
+    targetRevision: "HEAD"
     helm:
       releaseName: whoami
   destination:
